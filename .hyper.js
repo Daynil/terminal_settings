@@ -91,7 +91,6 @@ module.exports = {
 
     // if true, selected text will automatically be copied to the clipboard
     copyOnSelect: true,
-    commands: ['cd /mnt/c/Coding/']
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
