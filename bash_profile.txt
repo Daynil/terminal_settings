@@ -17,3 +17,5 @@ export GIT_PS1_SHOWCOLORHINTS="true"
 
 export PS1="$txtwht[$txtgrn\u@\h$txtwht]:[$txtpur\W$txtwht]$txtcyn\n$txtred\$$txtrst "
 
+cd /mnt/c/Coding/
+
