@@ -6,4 +6,5 @@ function prompt {
   '[' + $ESC + '[32m' + $env:USERNAME + '@' + $env:COMPUTERNAME + $ESC + '[0m]' + ':[' + $ESC + '[35m' + $leafPath + $ESC + '[0m]' + $nl + $ESC + '[31m$ ' + $ESC + '[0m'
 }
 
-Set-Location C:\Coding\
+# The below works to set directory, but messes up working directory for auto-launched processes (e.g. vscode tasks)
+# Set-Location C:\Coding\
