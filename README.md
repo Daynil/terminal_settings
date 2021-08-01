@@ -1,8 +1,7 @@
-# bash_profile.txt & bashrc.txt
+# bashrc.txt
 * WSL/Linux Terminal settings
-* remove the .txt, place in user home: ~/.bash_profile and ~/.bashrc
-* e.g. /home/daynil/.bash_profile
-* In WSL, C:\Users\Danny\AppData\Local\lxss\home\daynil
+* `code ~/.bashrc` and place posh code at the bottom (after installing it)
+* bash_profile.txt no longer need to modify
 
 # Microsoft.Powershell_profile.ps1
 * Powershell settings
