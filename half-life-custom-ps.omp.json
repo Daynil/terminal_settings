@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "powerline",
+          "foreground": "lightBlue",
+          "properties": {
+              "prefix": "",
+              "postfix": " ",
+              "wsl": "",
+              "wsl_separator": ""
+          }
+      },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "cyan",
+          "properties": {
+            "display_virtual_env": true,
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "cyan",
+          "properties": {
+            "user_info_separator": "<darkGray>@</>",
+            "user_color": "cyan",
+            "host_color": "green",
+            "prefix": ""
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "text": "in"
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#87FF00",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "home_icon": "\uF7DB",
+            "folder_icon": "\uE5FF",
+            "folder_separator_icon": "/",
+            "style": "agnoster"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#5FD7FF",
+          "properties": {
+            "prefix": " <#ffffff>on</> ",
+            "branch_icon": "",
+            "branch_ahead_icon": "",
+            "branch_behind_icon": "",
+            "branch_gone_icon": "",
+            "branch_identical_icon": "",
+            "commit_icon": "",
+            "tag_icon": "",
+            "merge_icon": "",
+            "rebase_icon": "",
+            "cherry_pick_icon": "",
+            "revert_icon": "",
+            "working_color": "#D75F00",
+            "staging_color": "#87FF00",
+            "local_working_icon": " ●",
+            "local_staged_icon": " ●",
+            "status_separator_icon": "",
+            "display_status": true,
+            "display_status_detail": false,
+            "display_branch_status": false,
+            "display_stash_count": false
+          }
+        },
+        {
+          "type": "envvar",
+          "style": "plain",
+          "foreground": "#d79e00",
+          "properties": {
+            "var_name": "PVENV",
+            "prefix": " (",
+            "postfix": ")"
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#D75F00",
+          "properties": {
+            "text": "\nλ",
+            "prefix": ""
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": false
+}
