@@ -13,7 +13,7 @@
 * Windows Terminal settings
 
 # half-life-custom.omp.json
-* oh my posh theme (samve for powershell and bash)
+* oh my posh theme (same for powershell and bash)
 
 # .hyper.js
 * Old terminal (Hyper)
