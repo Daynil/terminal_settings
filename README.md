@@ -14,6 +14,7 @@
 
 # half-life-custom.omp.json
 * oh my posh theme
+* the -ps one is for powershell only (uses a powershell environment variable I set up to show virtual environment PVENV), otherwise same
 
 # .hyper.js
 * Old terminal (Hyper)
