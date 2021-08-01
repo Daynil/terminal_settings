@@ -12,5 +12,8 @@
 # profiles.json
 * Windows Terminal settings
 
+# half-life-custom.omp.json
+* oh my posh theme
+
 # .hyper.js
 * Old terminal (Hyper)
